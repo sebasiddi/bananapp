@@ -1,9 +1,19 @@
-//.galeria-total{
+.contador{
+  margin: 0, auto;
+  background-color: white;
+  text-align: center;
+  span{
+    font-weight: bold;
+  }
+}
+
+
 .thumbnail-gallery{
   background-color: rgb(124, 243, 201);
   width: 80%;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 20px;
   padding: 20px;
   display: grid;
