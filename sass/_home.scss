@@ -1,0 +1,89 @@
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/—Pngtree—banana\ icon\ design\ illustration_5339122.png");
+  background-repeat: repeat;
+  background-size: 20px;
+  animation: fondo-fade 4s linear infinite;  
+  .main-container{
+    opacity: 1;
+    background: linear-gradient(45deg, rgba(255, 255, 0, 0.85),rgba(172, 255, 47, 0.85));
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60%;
+    border-radius: 20px;    
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    h1{font-family: 'Gluten', cursive;}
+    h1:hover{
+      color: rgb(94, 94, 45);
+      text-shadow: black 10px 10px;
+      transition: 500ms;}
+    .gallery{
+      width: 60%;
+      height: 60%;
+    }
+  }
+  .main-container:hover{
+    transition: 3000ms;
+    background: linear-gradient(45deg, rgba(255, 255, 0, 1),rgba(172, 255, 47, 1));
+  }
+
+
+  .apk{
+    background-color: rgb(218, 155, 30);
+    padding: 5px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    a{
+      text-decoration: none;
+      color: white;
+      text-align: center;
+    }
+  }
+  .share{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 20px;
+    background-color: rgb(13, 167, 72);
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+
+  footer{
+    background: linear-gradient(45deg, black,grey);
+    margin-top: 60px;
+    position: sticky;
+    bottom: 0;
+    .escudo{
+      border: none;
+      height: 65px;
+      justify-self: left;
+    }
+  }
+}
+
+img{
+  border-radius: 20px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: rgb(7, 7, 7);
+}
+
+.carousel-item{
+  justify-content: center;
+  align-items: center;
+}
+

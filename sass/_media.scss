@@ -1,0 +1,44 @@
+
+@media (max-width: 767px){
+  body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/—Pngtree—banana\ icon\ design\ illustration_5339122.png");
+    background-repeat: repeat;
+    background-size: 20px;
+    align-items: center;
+    margin-top: 60px;
+    .navbar{margin-top: -60px;}
+    .main-container{
+    
+      padding: 5px;
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 90%;
+     /*  height: 80vh; */
+      min-height: 50%;
+      align-self: flex-start;
+      .gallery{
+        width:100%;
+        padding: 5px;
+      }
+    }
+    .apk{
+      width: 80%;
+    }
+    .thumbnail-gallery{
+    grid-template-columns: 1fr;
+    img{
+      width: 80%;
+    }
+    }
+  }
+
+  .w-75{
+    width: 90% !important;
+  }
+
+  .w-50{
+    width: 90% !important;
+  }
+  }
