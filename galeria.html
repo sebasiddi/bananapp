@@ -6,14 +6,22 @@
   <title>Bananapp - Galeria</title>
   <meta name="description" content="Los liberotarios solo quieren dolarizar para vivir en un pais bananero">
   
+  <!-- CDN Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+  <!-- Favicon -->
   <link rel="shortcut icon" href="./img/—Pngtree—banana icon design illustration_5339122.png" type="image/x-icon">
+  
+  <!-- Hoja de estilos principal -->
   <link rel="stylesheet" href="./sass/main.css">
+  
   <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=64efe32cdc72050019fd5d2a&product=inline-share-buttons&source=platform" async="async"></script>
+  
+  <!-- Scripts para el contador -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
   <script src="./js/counter.js"></script>
 
+  <!-- Autimatic on Scroll -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
@@ -28,9 +36,10 @@
   gtag('config', 'G-E2DYL0K84N');
 </script>
 
+
 <body>
   
-
+<!-- Menu bar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand ms-3" href="./index.html">🍌Bananap</a>
@@ -51,16 +60,20 @@
     </div>
   </nav>
 
+<!-- Contador -->
 <div class="contador">
   <p>
     Ya tenemos 
-    <span class="timer count-number" data-to="51" data-speed="3500" data-decimals="0"></span>
+    <span class="timer count-number" data-to="52" data-speed="3500" data-decimals="0"></span>
     banamemes
   </p>
 
 </div>
 
-
+<!-- <div class="arrow-up">
+  Volver
+</div> -->
+<!-- Galería -->
     <div class="thumbnail-gallery">
     
 
@@ -122,6 +135,7 @@
         <img src="./img/banana49.jpg" alt="Milei Bananero" class="thumbnail">
         <img src="./img/banana50.jpg" alt="Milei Bananero" class="thumbnail">
         <img src="./img/banana51.jpg" alt="Milei Bananero" class="thumbnail">
+        <img src="./img/banana52.jpg" alt="Milei Bananero" class="thumbnail">
 
 
 
@@ -130,8 +144,26 @@
      </div>
     </div>
 
+
+
+
+    
+<footer class="footer">
+  <div class="contenido_footer">
+    <div class="ministerio">
+
+      <img src="./img/escudo.png" alt="" class="escudo">
+      <p>Este sitio está avalado por la Secretaría de Vouchers y Órganos<br><strong>Presidencia de la Nación Bananina</strong></p>
+    </div>
+   
+  </div>
+
+
+
+</footer>
+
+<!-- Script para Modal de imagenes -->
 <script>
-// Add this to the existing JavaScript code
 const thumbnails = document.querySelectorAll('.thumbnail');
 
 thumbnails.forEach(thumbnail => {
@@ -145,16 +177,16 @@ fullscreenOverlay.addEventListener('click', () => {
     fullscreenOverlay.style.display = 'none';
 });
 
-
 </script>
 
 
-
+<!-- Script de AOS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
 <script>
   AOS.init();
 </script>
+
+<!-- Script de Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 </body>

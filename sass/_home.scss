@@ -6,6 +6,8 @@ body{
   background-repeat: repeat;
   background-size: 20px;
   animation: fondo-fade 4s linear infinite;  
+  display: flex;
+  flex-direction: column;
   .main-container{
     opacity: 1;
     background: linear-gradient(45deg, rgba(255, 255, 0, 0.85),rgba(172, 255, 47, 0.85));
@@ -15,10 +17,16 @@ body{
     width: 60%;
     border-radius: 20px;    
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     align-items: center;
-    justify-content: center;
-    h1{font-family: 'Gluten', cursive;}
+    justify-content: flex-start;
+    font-family: 'Gluten', cursive;
+    }
+
+    .focus-in-contract-bck {
+      -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+              animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+    }
     h1:hover{
       color: rgb(94, 94, 45);
       text-shadow: black 10px 10px;
@@ -58,18 +66,8 @@ body{
   }
 
 
-  footer{
-    background: linear-gradient(45deg, black,grey);
-    margin-top: 60px;
-    position: sticky;
-    bottom: 0;
-    .escudo{
-      border: none;
-      height: 65px;
-      justify-self: left;
-    }
-  }
-}
+ 
+
 
 img{
   border-radius: 20px;

@@ -7,6 +7,24 @@
   }
 }
 
+.arrow-up{
+  right: 0;
+ background-color: tomato;
+ color: white;
+ padding: 15px 5px 15px 20px;
+
+
+ --offset: 50px; 
+  
+ position: sticky;
+ bottom: 20px;      
+ margin-right:10px; 
+ place-self: end;
+ margin-top: calc(100vh + var(--offset));
+}
+
+
+
 
 .thumbnail-gallery{
   background-color: rgb(124, 243, 201);
@@ -24,8 +42,9 @@
   
   .thumbnail {
     cursor: pointer;
-    max-width: 250px;
-    max-height: 250px;
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
   }
   .image-container {
     cursor: pointer;

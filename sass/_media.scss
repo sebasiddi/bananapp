@@ -8,7 +8,10 @@
     background-size: 20px;
     align-items: center;
     margin-top: 60px;
-    .navbar{margin-top: -60px;}
+    .navbar{
+      margin-top: -60px;
+      width: 100vw;
+    }
     .main-container{
     
       padding: 5px;
@@ -16,8 +19,8 @@
       margin-top: 10px;
       width: 90%;
      /*  height: 80vh; */
-      min-height: 50%;
-      align-self: flex-start;
+/*       min-height: 50%;
+ */      align-self: flex-start;
       .gallery{
         width:100%;
         padding: 5px;
@@ -40,5 +43,9 @@
 
   .w-50{
     width: 90% !important;
+  }
+
+  .footer{
+    width: 100vw;
   }
   }
